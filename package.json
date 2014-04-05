@@ -1,5 +1,5 @@
 {
-  "name": "gulp-coffee",
+  "name": "gulp-coffee-es6",
   "description": "Compile CoffeeScript files",
   "version": "1.4.1",
   "homepage": "http://github.com/wearefractal/gulp-coffee",
@@ -11,7 +11,7 @@
   ],
   "dependencies": {
     "event-stream": "~3.0.20",
-    "coffee-script": "~1.7.0",
+    "coffee-script": "git://github.com/alubbe/coffee-script.git#1e377ed59bc4f679863b7543f0c33d1f89dbf6ac",
     "gulp-util": "~2.2.1"
   },
   "devDependencies": {
